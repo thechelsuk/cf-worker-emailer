@@ -14,8 +14,8 @@ A cloudflare worker to handle website form
 (see wranngler.toml)
 
 - ALLOWED_ORIGIN = "https://mydomain.tld"
-- THANKYOU_URL = "https://mydomain.tld/thank-you/"
-- ERROR_URL = "https://mydomain.tld/contact/?error=1"
+- THANKYOU_URL = "https://mydomain.tld/contaxt/thanks/"
+- ERROR_URL = "https://mydomain.tld/contact/error/"
 
 
 ## Process
