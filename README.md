@@ -9,7 +9,7 @@ A cloudflare worker to handle website form
 - RESEND_API_KEY
 - TURNSTILE_SECRET
 
-## Required Vars
+## Required Vars
 
 (see wranngler.toml)
 
@@ -18,6 +18,7 @@ A cloudflare worker to handle website form
 - ERROR_URL = "https://mydomain.tld/contact/error/"
 
 ## Process
+
 - Receive POST
 - Validate JSON
 - Reject invalid requests
