@@ -12,4 +12,6 @@ ALLOWED_ORIGIN = "https://thechels.uk"
 THANKYOU_URL = "https:/thechels.uk/c/thanks"
 ERROR_URL = "https://thechels.uk/c/error"
 
-
+[observability.logs]
+enabled = true
+invocation_logs = true
