@@ -72,3 +72,9 @@ jobs:
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
                   wranglerVersion: "4"
+                  secrets: |
+                      RESEND_API_KEY
+                      TURNSTILE_SECRET
+              env:
+                  RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+                  TURNSTILE_SECRET: ${{ secrets.TURNSTILE_SECRET }}
