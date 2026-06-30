@@ -1,0 +1,11 @@
+{
+    "name": "cf-worker-emailer",
+    "version": "1.0.0",
+    "description": "Cloudflare Worker manager contact form.",
+    "main": "worker/index.js",
+    "scripts": {
+        "deploy": "echo Deploy handled by GitHub Actions"
+    },
+    "author": "",
+    "license": "MIT"
+}
