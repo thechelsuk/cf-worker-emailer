@@ -72,9 +72,16 @@ jobs:
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
                   wranglerVersion: "4"
+                  # Pushes these into Cloudflare's secret store on every deploy.
+                  # wrangler-action reads each name as an env var of the same name (set below)
+                  # and runs `wrangler secret put` for each.
                   secrets: |
+                      TO_EMAIL
+                      FROM_EMAIL
                       RESEND_API_KEY
                       TURNSTILE_SECRET
               env:
+                  TO_EMAIL: ${{ secrets.TO_EMAIL }}
+                  FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
                   RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
                   TURNSTILE_SECRET: ${{ secrets.TURNSTILE_SECRET }}
