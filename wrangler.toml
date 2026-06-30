@@ -9,7 +9,7 @@ routes = [
 
 [vars]
 ALLOWED_ORIGIN = "https://thechels.uk"
-THANKYOU_URL = "https:/thechels.uk/c/thanks/"
-ERROR_URL = "https://thechels.uk/c/error/"
+THANKYOU_URL = "https:/thechels.uk/c/thanks"
+ERROR_URL = "https://thechels.uk/c/error"
 
 

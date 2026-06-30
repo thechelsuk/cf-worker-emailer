@@ -11,11 +11,11 @@ A cloudflare worker to handle website form
 
 ## Required Vars
 
-(see wranngler.toml)
+(see wrangler.toml)
 
-- ALLOWED_ORIGIN = "https://mydomain.tld"
-- THANKYOU_URL = "https://mydomain.tld/contaxt/thanks/"
-- ERROR_URL = "https://mydomain.tld/contact/error/"
+- ALLOWED_ORIGIN = "/mydomain.tld"
+- THANKYOU_URL = "/contact/thanks/"
+- ERROR_URL = "/contact/error/"
 
 ## Process
 
